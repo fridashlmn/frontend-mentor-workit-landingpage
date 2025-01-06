@@ -13,9 +13,9 @@
         {{ item.number }}
       </div>
       <div>
-        <h4 class="text-3xl lg:text-center md:text-left text-center">
+        <h3 class="text-3xl lg:text-center md:text-left text-center">
           {{ item.title }}
-        </h4>
+        </h3>
         <p
           class="lg:text-center md:text-left text-center text-base lg:pt-7 md:pt-7 pt-4"
         >

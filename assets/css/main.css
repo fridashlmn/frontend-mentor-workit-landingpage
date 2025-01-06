@@ -6,7 +6,7 @@
 
 @layer base {
   @font-face {
-    font-family: 'fraunces';
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -30,7 +30,7 @@ h2,
 h3,
 h4,
 li a {
-  font-family: 'fraunces', serif;
+  font-family: 'Fraunces', serif;
 }
 
 .iconHover:hover path {

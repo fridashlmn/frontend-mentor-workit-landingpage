@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="w-screen overflow-x-clip bg-purple-100">
+  <div class="w-screen overflow-x-clip">
+    <div class="bg-purple-100">
       <div
         class="z-00 bg-purple-900 rounded-t-none rounded-b-[50%] relative w-[175%] -left-[37%]"
       >
@@ -35,14 +35,12 @@
         </div>
       </div>
     </div>
-    <div class="w-screen overflow-x-clip">
-      <div
-        class="flex justify-center z-0 bg-purple-100 rounded-t-none rounded-b-[50%] relative w-[175%] -left-[37%]"
-      >
-        <TeaserList class="w-screen relative" />
-      </div>
-      <PictureCard />
+    <div
+      class="flex justify-center z-0 bg-purple-100 rounded-t-none rounded-b-[50%] relative w-[175%] -left-[37%]"
+    >
+      <TeaserList class="w-screen" />
     </div>
+    <PictureCard />
   </div>
 </template>
 

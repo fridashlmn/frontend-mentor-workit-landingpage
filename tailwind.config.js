@@ -27,7 +27,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Manrope', 'sans-serif'],
-      serif: ['fraunces', 'serif'],
+      serif: ['Fraunces', 'serif'],
     },
     fontSize: {
       'base': [
