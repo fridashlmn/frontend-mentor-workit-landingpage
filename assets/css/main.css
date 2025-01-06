@@ -1,27 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: 'fraunces';
-        font-style: normal;
-        font-weight: 600;
-        font-display: swap;
-        src: url(../../public/Fraunces_144pt-SemiBold.ttf) format('opentype');
-    }
-
-    @font-face {
-        font-family: 'manrope';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(../../public/Manrope-Regular.ttf) format('opentype');
-    }
+  @font-face {
+    font-family: 'fraunces';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../../public/Fraunces_144pt-SemiBold.ttf) format('opentype');
+  }
 }
 
-html {
-    font-family: 'manrope', sans-serif;
+html,
+div,
+button,
+p {
+  font-family: 'Manrope', sans-serif;
+}
+
+p {
+  font-weight: 200;
 }
 
 h1,
@@ -29,5 +30,9 @@ h2,
 h3,
 h4,
 li a {
-    font-family: 'fraunces', serif;
+  font-family: 'fraunces', serif;
+}
+
+.iconHover:hover path {
+  fill: #24053e;
 }
