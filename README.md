@@ -10,11 +10,15 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot - Result
-
-![screenshot](assets/screenshots/desktop.png)
 
 ### Built with
 
 - Tailwind CSS
 - Nuxt / Typescript
+
+### Result
+
+https://frontend-mentor-workit-landingpage.netlify.app/
+
+![screenshot](assets/screenshots/desktop.png)
+
